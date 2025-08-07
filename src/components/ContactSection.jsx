@@ -1,5 +1,4 @@
 import { Facebook, Instagram, Linkedin, Mail, MapPin, Send } from "lucide-react";
-import { cn } from "../lib/utils";
 
 export const ContactSection = () => {
   return (
