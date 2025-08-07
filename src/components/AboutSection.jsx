@@ -26,7 +26,7 @@ export const AboutSection = () => {
             <p className="text-muted-foreground">
               I am a fresh graduate in Informatics from Institut Teknologi Del
               with a strong passion for software engineering, particularly in
-              backend development. I have 0.5 years of professional experience
+              backend development. I have professional experience
               as an intern programmer, where I gained valuable insights into
               real-world software development.
             </p>

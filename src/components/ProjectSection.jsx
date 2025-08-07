@@ -5,31 +5,31 @@ const projects = [
     id: 1,
     title: "Progamify",
     description:
-      "Gamified e-learning mobile app for learning programming, supported by a CMS-based website for content management.",
+      "Gamified e-learning mobile app for learning programming",
     image: "/projects/progamify.png",
     tags: ["Flutter", "Laravel", "Go", "MySQL"],
     demoUrl: "#",
     githubUrl: "https://github.com/boysitorus/Progamify-Restful-API",
   },
-  {
-    id: 2,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "PostgreSQL"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+  // {
+  //   id: 2,
+  //   title: "E-commerce Platform",
+  //   description:
+  //     "Full-featured e-commerce, build with GRPC on the backend side.",
+  //   image: "/projects/project3.png",
+  //   tags: ["React", "Golang", "PostgreSQL", "GRPC"],
+  //   demoUrl: "#",
+  //   githubUrl: "#",
+  // },
   {
     id: 3,
     title: "Job Portal Website",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
+      "Job Hunt is a modern job search platform built with Next.js",
+    image: "/projects/jobhunt.png",
     tags: ["Next.js", "PostgreSQL"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/boysitorus/Job-Hunt",
   },
   {
     id: 4,

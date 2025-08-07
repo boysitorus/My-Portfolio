@@ -13,7 +13,7 @@ export const ContactSection = () => {
           Have a project in mid or want to collaborate? Feel free to reach out. I'm always open to discuss new opportunities.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 gap-12">
           <div class="space-y-8">
             <h3 className="text-2xl font-semibold mb-6">
               {" "}
@@ -21,7 +21,7 @@ export const ContactSection = () => {
             </h3>
 
             <div className="space-y-6 justify-center">
-              <div className="flex items-start space-x-4">
+              <div className="flex justify-center items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Mail className="h-6 w-6 text-primary" />{" "}
                 </div>
@@ -36,7 +36,7 @@ export const ContactSection = () => {
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4">
+              <div className="flex justify-center items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <MapPin className="h-6 w-6 text-primary" />{" "}
                 </div>
@@ -75,70 +75,6 @@ export const ContactSection = () => {
                 </a>
               </div>
             </div>
-          </div>
-
-          <div className="bg-card p-8 rounded-lg shadow-xs" onSubmit="">
-            <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
-
-            <form action="" className="space-y-6">
-              <div>
-                <label
-                  htmlFor="name"
-                  className="items-start flex text-sm font-medium mb-2"
-                >
-                  Your Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  required
-                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                  placeholder="John..."
-                />
-              </div>
-
-              <div>
-                <label
-                  htmlFor="email"
-                  className="items-start flex text-sm font-medium mb-2"
-                >
-                  Your Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  required
-                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                  placeholder="YourEmail@gmail.com"
-                />
-              </div>
-
-              <div>
-                <label
-                  htmlFor="message"
-                  className="items-start flex text-sm font-medium mb-2"
-                >
-                  Your Message
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  required
-                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                  placeholder="Hi, I'd like to talk about..."
-                />
-              </div>
-
-              <button type="submit"
-              className={cn(
-                "cosmic-button w-full flex items-center justify-center gap-2"
-              )}>
-                Send Message
-                <Send size={16} />
-              </button>
-            </form>
           </div>
         </div>
       </div>
